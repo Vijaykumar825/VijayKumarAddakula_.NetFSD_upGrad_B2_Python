@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Example</title>
+  <link rel="stylesheet" href="hover.css">
+</head>
+<body>
+
+  <button id="profile">Toggle Profile</button>
+  <div id="Container"></div>
+
+  <script>
+
+        let profile = document.getElementById("profile")
+
+        function addProfile(){
+            let existingBox = document.querySelector(".box");
+
+            if(existingBox){
+                existingBox.remove()
+            } else {
+                let newBox = document.createElement("div");
+
+                newBox.className = "box";
+
+                newBox.innerHTML = "<p><b>Welcome<b> <br> To access account and manage orders</p> <br> <button class=login-btn>Login/Signup</button> <br> <hr> <ul><li>Orders</li><li>Wishlist</li><li>Gift Cards</li><li>Contact us</li></ul> <hr> <ul><li>Coupons</li><li>Saved Cards</li><li>Saved Address</li></ul>"
+
+                document.getElementById("Container").appendChild(newBox);
+            }
+        }
+
+        profile.addEventListener("click", addProfile)
+
+    </script>
+
+</body>
+</html>

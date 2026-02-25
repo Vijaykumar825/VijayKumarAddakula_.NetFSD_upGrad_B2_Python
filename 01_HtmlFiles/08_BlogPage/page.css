@@ -1,0 +1,103 @@
+body
+{
+    background-color:lightblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+.container
+{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    background-color: #fafafa;
+    position: relative;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    
+}
+.box p{
+  word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.container2{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.box:hover
+{
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+button{
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  justify-content: flex-end;
+}
+
+
+.buttons
+{
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-content: flex-end;
+    justify-items: end;
+}
+button:hover
+{
+    background-color: #333;
+}
+@media (max-width: 700px){
+    .container1 {
+        flex-direction: column;
+
+    }
+    
+    .box {
+        background-color: red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+@media (max-width: 700px){
+    .container {
+        flex-direction: column;
+        background-color: lightgreen;
+
+    }
+    
+    
+}

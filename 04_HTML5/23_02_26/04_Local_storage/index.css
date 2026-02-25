@@ -1,0 +1,15 @@
+.form-control{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}

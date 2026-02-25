@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+
+}
+.container{
+    display: flex;
+}
+.box:hover{
+    background-color: lightcoral;
+}

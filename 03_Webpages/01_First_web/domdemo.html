@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+  <link rel="stylesheet" href="domdemo.css">
+</head>
+<body>
+  <body>
+    <h1>Demo Demo</h1>
+    <div id="container"></div>
+    <button onclick="addBox()">Add Box</button>
+    <button onclick="removeBox()">Remove Box</button>
+    
+</body>
+    <script>
+        function addBox() {
+
+            let newBox = document.createElement("div");
+
+            newBox.className = "box";
+
+            document.getElementById("container").appendChild(newBox);
+        }
+        function removeBox() {
+            let container = document.getElementById("container");
+            if (container.children.length > 0) {
+                container.removeChild(container.lastChild);
+            }
+        }
+    </script>
+</html>
+
+  
+</body>
+</html>

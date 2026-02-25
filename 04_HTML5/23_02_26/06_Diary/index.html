@@ -1,0 +1,53 @@
+<!-- 
+  You are building a simple web page where users can write daily notes and save them in their browser without using a server. 
+📌 Requirements 
+A textarea for writing notes. 
+A Save button (using onclick). 
+A Clear button. 
+Notes must: 
+Be stored in localStorage 
+Automatically load when the page refreshes 
+Display stored note on page load. 
+ 
+🛠️ Technical Constraints 
+Must use: 
+onclick inline event 
+localStorage.setItem() 
+localStorage.getItem() 
+localStorage.removeItem() 
+No backend/database. 
+Pure HTML + JavaScript only. 
+Data stored as key-value pair.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diary</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header">
+    <h1>
+      My Daily Diary
+    </h1>
+  </header>
+  <div class="container">
+    <textarea class="textarea" id="note" placeholder="Write your note here..."></textarea>
+    <div class="buttons">
+      <button class="button" onclick="saveNote()">Save</button>
+      <button class="button" onclick="clearNote()">Clear</button>
+    </div>
+  </div>
+
+
+  <script src="index.js">
+    
+  </script>
+  
+</body>
+</html>

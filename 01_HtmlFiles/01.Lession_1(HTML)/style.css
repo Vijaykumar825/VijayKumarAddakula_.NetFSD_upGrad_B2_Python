@@ -1,0 +1,42 @@
+body {
+    margin: 0;                 
+    height: 100%;              
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    background-color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 25px;
+    background-color: rgb(121, 121, 121);
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+}
+
+.box p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,1 @@
+Build a college website which will have these pages home page (index.html), courses.html, admissions.html,  gallery.html and contactForm.html. Also create an ‘assets’ folder in which you will store images of the gallery(get them from the internet or share your own and use them in the project).

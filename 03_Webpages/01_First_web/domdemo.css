@@ -1,0 +1,11 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    margin:20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

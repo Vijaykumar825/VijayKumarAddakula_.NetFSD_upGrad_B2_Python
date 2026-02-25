@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  transition: background-color 0.3s ease,color 0.3s ease;
+}
+.container{
+  padding:40px;
+  text-align: center;
+
+}
+
+button{
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(65, 153, 153);
+  border-radius: 10px;
+  margin-left: 20px;
+  
+}
+
+.light{
+  background-color: #ffffff;
+  color: #222222;
+}
+.dark{
+  background-color: #121212;
+  color: #f5f5f5;
+}
+

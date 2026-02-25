@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    margin: 20px;
+}
+body{
+  background-color: lightgray;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box1{
+    width: 100px;
+    text-align: right;
+    align-items: flex-end;
+    margin: 20px;
+}
