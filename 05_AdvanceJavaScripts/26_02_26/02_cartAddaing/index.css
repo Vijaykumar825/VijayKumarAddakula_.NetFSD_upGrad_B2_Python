@@ -1,0 +1,30 @@
+ body {
+      font-family: Arial;
+      padding: 40px;
+    }
+
+    button {
+      padding: 6px 12px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: aqua;
+
+    }
+
+    .cart-item {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .controls button {
+      margin-left: 5px;
+    }
+    .container{
+      align-items: center;
+      justify-content: center;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }

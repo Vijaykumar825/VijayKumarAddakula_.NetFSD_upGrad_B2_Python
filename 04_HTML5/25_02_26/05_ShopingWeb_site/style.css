@@ -1,0 +1,179 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial;
+}
+
+body{
+  background:#f3f3f3;
+}
+
+/* NAVBAR */
+.navbar{
+  background:#131921;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  color:#f08804;
+}
+
+.search-box input{
+  width:400px;
+  padding:8px;
+  border:none;
+  border-radius:4px;
+}
+
+.nav-right{
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+
+.nav-item{
+  position:relative;
+  cursor:pointer;
+}
+
+.nav-item span{
+  font-size:12px;
+}
+
+.bold{
+  font-weight:bold;
+  font-size:14px;
+}
+
+.dropdown{
+  position:absolute;
+  top:40px;
+  left:0;
+  background:white;
+  color:black;
+  padding:10px;
+  display:none;
+  width:150px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.nav-item:hover .dropdown{
+  display:block;
+}
+
+.dropdown p{
+  padding:5px 0;
+  cursor:pointer;
+}
+
+.dropdown p:hover{
+  color:#f08804;
+}
+
+.cart{
+  position:relative;
+  font-size:22px;
+  cursor:pointer;
+}
+
+#cartCount{
+  position:absolute;
+  top:-8px;
+  right:-10px;
+  background:red;
+  color:white;
+  border-radius:50%;
+  padding:2px 6px;
+  font-size:12px;
+}
+
+/* CATEGORY */
+.categories{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+  background:white;
+}
+
+.categories button{
+  padding:8px 15px;
+  border:none;
+  cursor:pointer;
+  background:#ddd;
+  border-radius:4px;
+}
+
+.categories button:hover{
+  background:#f08804;
+  color:white;
+}
+
+/* PRODUCTS */
+.container{
+  padding:40px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:30px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:5px;
+}
+
+.price{
+  margin-top:8px;
+  font-weight:bold;
+}
+
+.old{
+  text-decoration:line-through;
+  color:gray;
+  margin-left:10px;
+}
+
+.discount{
+  color:red;
+  margin-left:10px;
+}
+
+.card button{
+  margin-top:10px;
+  padding:8px;
+  width:100%;
+  border:none;
+  background:#f08804;
+  color:white;
+  cursor:pointer;
+}
+
+.card button:hover{
+  background:#d97700;
+}
+
+.no-result{
+  text-align:center;
+  font-size:20px;
+  margin-top:20px;
+  display:none;
+}

@@ -1,0 +1,10 @@
+[
+  { "id":1, "name":"Men Puma Shoes", "brand":"Puma", "category":"Men", "price":799, "oldPrice":1299, "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff" },
+  { "id":2, "name":"Men Nike T-Shirt", "brand":"Nike", "category":"Men", "price":599, "oldPrice":999, "image":"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" },
+
+  { "id":3, "name":"Women Adidas Shoes", "brand":"Adidas", "category":"Women", "price":999, "oldPrice":1499, "image":"https://images.unsplash.com/photo-1606813907291-d86efa9b94db" },
+  { "id":4, "name":"Women Casual Dress", "brand":"Zara", "category":"Women", "price":1299, "oldPrice":1999, "image":"https://images.unsplash.com/photo-1520975693410-0010f28d4b8d" },
+
+  { "id":5, "name":"Kids Cartoon Shoes", "brand":"Bata", "category":"Kids", "price":499, "oldPrice":799, "image":"https://images.unsplash.com/photo-1514995669114-6081e934b693" },
+  { "id":6, "name":"Kids Jacket", "brand":"H&M", "category":"Kids", "price":899, "oldPrice":1299, "image":"https://images.unsplash.com/photo-1503342217505-b0a15ec3261c" }
+]

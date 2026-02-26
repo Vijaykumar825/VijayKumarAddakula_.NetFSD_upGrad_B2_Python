@@ -1,0 +1,30 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Vijay Kumar",
+            "age": 24,
+            "email": "kumarvijay34453@gmail.com.com",
+            "phone": "6309725364",
+            "address": {
+                "street": "Ayyappa society",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "zip": "500032"
+            }
+        },
+        {
+            "id": 2,
+            "name": "charan",
+            "age": 24,
+            "email": "charan34453@gmail.com.com",
+            "phone": "6309725364",
+            "address": {
+                "street": "Ayyappa society",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "zip": "500032"
+            }
+        }
+    ]
+}
