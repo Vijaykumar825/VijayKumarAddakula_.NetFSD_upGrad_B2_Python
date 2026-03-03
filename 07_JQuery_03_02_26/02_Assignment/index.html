@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Feedback Form</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+  <h2>Student Feedback Form</h2>
+
+  <form id="feedbackForm">
+    <input type="text" id="name" placeholder="Enter Name">
+
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <select id="rating">
+      <option value="">Select Course Rating</option>
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Poor</option>
+    </select>
+
+    <textarea id="comments" placeholder="Enter Comments"></textarea>
+
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+
+  <div id="responseMessage" class="message"></div>
+
+  <script src="index.js">
+    
+  </script>
+
+</body>
+</html>
